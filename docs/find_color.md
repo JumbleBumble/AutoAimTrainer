@@ -16,10 +16,10 @@ find_color(target_color, step=1, x_offset=0, y_offset=0, interval=0, max_attempt
 - y_max (int, optional): The maximum y value for the region. Defaults to 1920.
 
 ### Returns: 
-  None: Returns nothing if target not found after max attempts.
+ - None: Returns nothing if target not found after max attempts.
 
 ### Raises:
-  ValueError: If the target_color argument is not passed. Also raises a ValueError if it finds your x_max or y_max are bigger than your screen size after taking screenshot.
+ - ValueError: If the target_color argument is not passed. Also raises a ValueError if it finds your x_max or y_max are bigger than your screen size after taking screenshot.
 
 Scans the given region in steps, checking each pixel color against the target 
 color. If found, it will click at the target offset by the x_offset and y_offset 
