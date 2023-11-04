@@ -11,3 +11,5 @@ Simple library for automated aiming and clicking on 2D targets
 
 
 Use my [RegionFetch](https://github.com/JumbleBumble/RegionFetch) PyQt5 app to easily retreive region values.
+
+Aim Trainer Aimbot Application using AutoAimTrainer: [AimTrainerAimbot](https://github.com/JumbleBumble/AimTrainerAimbot)
