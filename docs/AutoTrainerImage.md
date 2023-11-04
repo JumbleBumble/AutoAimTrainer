@@ -2,7 +2,7 @@
 
 AutoTrainerImage(image_path, search_interval=0, top_left=[0,0], bottom_right=[1920,1080])
 
-#### Arguments
+#### Args
 
 - `image_path` (str): The file path of the image to search for.
 - `search_interval` (float, optional): Time interval between search attempts in seconds. Defaults to 0.
