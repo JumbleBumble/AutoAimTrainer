@@ -10,7 +10,7 @@ class AimTrainer:
 
     # Finds a color and clicks it, pretty cool
     @classmethod
-    def find_color(cl,target_color, step=1, x_offset=0, y_offset=0, interval=0, max_attempts=1, x_min=0, y_min=0, x_max=1080, y_max=1920): # x_max and y_max default values are for a 1080x1920p monitor
+    def find_color(cl,target_color, step=1, x_offset=0, y_offset=0, interval=0, max_attempts=1, x_min=0, y_min=0, x_max=1920, y_max=1080): # x_max and y_max default values are for a 1080x1920p monitor
         if not target_color: raise ValueError('target_color parameter is required')
         attempts = 0
         while attempts < max_attempts:
@@ -34,7 +34,7 @@ class AimTrainer:
 
     # Finds a img and clicks it cuz yes
     @classmethod
-    def find_image(cl, image_path, top_left=[0,0], bottom_right=[1080,1920]):
+    def find_image(cl, image_path, top_left=[0,0], bottom_right=[1920,1080]):
         if not image_path: raise ValueError('image_path parameter is required')
         # Pretty much just use locateCenterOnScreen for this
         image_check = pyautogui.locateCenterOnScreen(image_path,region=(top_left[0], top_left[1], bottom_right[0], bottom_right[1]))
@@ -43,7 +43,7 @@ class AimTrainer:
             pyautogui.click(x, y)
 
     @classmethod
-    def AutoTrainerColor(cl, target_color, x_offset=0, y_offset=0, search_interval=0, top_left=[0,0], bottom_right=[1080,1920]):
+    def AutoTrainerColor(cl, target_color, x_offset=0, y_offset=0, search_interval=0, top_left=[0,0], bottom_right=[1920,1080]):
         if not target_color: raise ValueError('target_color parameter is required')
         try:
             while True:
@@ -53,7 +53,7 @@ class AimTrainer:
             return False
         
     @classmethod
-    def AutoTrainerImage(cl, image_path, search_interval=0, top_left=[0,0], bottom_right=[1080,1920]):
+    def AutoTrainerImage(cl, image_path, search_interval=0, top_left=[0,0], bottom_right=[1920,1080]):
         if not image_path: raise ValueError('image_path parameter is required')
         try:
             while True:
