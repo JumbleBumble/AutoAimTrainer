@@ -1,4 +1,4 @@
-###Searches for a target image on the screen and clicks on it if found. 
+### Searches for a target image on the screen and clicks on it if found. 
 
 find_image(image_path, top_left=[0,0], bottom_right=[1080,1920])
 
