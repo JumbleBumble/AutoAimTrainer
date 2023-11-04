@@ -8,3 +8,6 @@ Simple library for automated aiming and clicking on 2D targets
 * Find and click targets based on image matching  
 * Customizable search area
 * Configurable scan increments and timing
+
+
+Use my [RegionFetch](https://github.com/JumbleBumble/RegionFetch) PyQt5 app to easily retreive region values.
