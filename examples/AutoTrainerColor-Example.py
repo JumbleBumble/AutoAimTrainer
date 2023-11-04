@@ -1,4 +1,4 @@
-from library import AutoAimTrainer #Assuming you have the library in a folder named library and named it AutoAimTrainer
+from library.AutoAimTrainer import AimTrainer as AutoAimTrainer #Assuming you have the library in a folder named library and named it AutoAimTrainer
 
 target_color = (255,0,0)          
 y_min = 331
