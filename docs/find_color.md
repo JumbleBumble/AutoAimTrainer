@@ -12,8 +12,8 @@ find_color(target_color, step=1, x_offset=0, y_offset=0, interval=0, max_attempt
 - `max_attempts` (int, optional): Maximum number of attempts. Defaults to 1. 
 - `x_min` (int, optional): The minimum x value for the region. Defaults to 0.
 - `y_min` (int, optional): The minimum y value for the region. Defaults to 0.
-- `x_max` (int, optional): The maximum x value for the region. Defaults to 1080.  
-- `y_max` (int, optional): The maximum y value for the region. Defaults to 1920.
+- `x_max` (int, optional): The maximum x value for the region. Defaults to 1920.  
+- `y_max` (int, optional): The maximum y value for the region. Defaults to 1080.
 
 #### Returns: 
  - `None`: Returns nothing if target not found after `max_attempts`.
