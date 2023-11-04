@@ -1,6 +1,6 @@
-find_color(target_color, step=1, x_offset=0, y_offset=0, interval=0, max_attempts=1, x_min=0, y_min=0, x_max=1080, y_max=1920)
-
 ### Searches for a target color within a region of the screen and clicks on it.
+
+find_color(target_color, step=1, x_offset=0, y_offset=0, interval=0, max_attempts=1, x_min=0, y_min=0, x_max=1080, y_max=1920)
 
 ### Args:
 
