@@ -9,7 +9,7 @@ AutoTrainerColor(target_color, x_offset=0, y_offset=0, search_interval=0, top_le
 - `y_offset` (int, optional): Pixels to offset clicks in the y direction. Defaults to 0.
 - `search_interval` (float, optional): Time interval between search attempts in seconds. Defaults to 0.
 - `top_left` (list, optional): List of [x, y] representing the top-left corner of the search region. Defaults to [0, 0].
-- `bottom_right` (list, optional): List of [x, y] representing the bottom-right corner of the search region. Defaults to [1080, 1920].
+- `bottom_right` (list, optional): List of [x, y] representing the bottom-right corner of the search region. Defaults to [1920, 1080].
 
 #### Returns
 
