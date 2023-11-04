@@ -1,6 +1,6 @@
 ### Searches for a target color within a specified region of the screen and clicks on it at regular intervals.
 
-AutoTrainerColor(target_color, x_offset=0, y_offset=0, search_interval=0, top_left=[0,0], bottom_right=[1080,1920])
+AutoTrainerColor(target_color, x_offset=0, y_offset=0, search_interval=0, top_left=[0,0], bottom_right=[1920,1080])
 
 #### Arguments
 
