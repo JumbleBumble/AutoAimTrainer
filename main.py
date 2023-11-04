@@ -10,7 +10,7 @@ class AimTrainer:
 
     # Finds a color and clicks it, pretty cool
     @classmethod
-    def find_color(cl,target_color, step=1, x_offset=0, y_offset=0, interval=0, max_attempts=1, x_min=0, y_min=0, x_max=1920, y_max=1080): # x_max and y_max default values are for a 1080x1920p monitor
+    def find_color(cl,target_color, step=1, x_offset=0, y_offset=0, interval=0, max_attempts=1, x_min=0, y_min=0, x_max=1920, y_max=1080): # x_max and y_max default values are for a 1920x1080p monitor
         if not target_color: raise ValueError('target_color parameter is required')
         attempts = 0
         while attempts < max_attempts:
