@@ -1,6 +1,6 @@
 #### Searches for a specific image within a specified region of the screen and clicks on it at regular intervals.
 
-AutoTrainerImage(image_path, search_interval=0, top_left=[0,0], bottom_right=[1080,1920])
+AutoTrainerImage(image_path, search_interval=0, top_left=[0,0], bottom_right=[1920,1080])
 
 #### Arguments
 
