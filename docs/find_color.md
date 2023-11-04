@@ -1,8 +1,8 @@
-### Searches for a target color within a region of the screen and clicks on it.
+#### Searches for a target color within a region of the screen and clicks on it.
 
 find_color(target_color, step=1, x_offset=0, y_offset=0, interval=0, max_attempts=1, x_min=0, y_min=0, x_max=1080, y_max=1920)
 
-### Args:
+#### Args:
 
 - `target_color` (tuple): RGB tuple of the target color to click on.
 - `step` (int, optional): Steps taken when scanning the region. Defaults to 1.  
@@ -15,10 +15,10 @@ find_color(target_color, step=1, x_offset=0, y_offset=0, interval=0, max_attempt
 - `x_max` (int, optional): The maximum x value for the region. Defaults to 1080.  
 - `y_max` (int, optional): The maximum y value for the region. Defaults to 1920.
 
-### Returns: 
+#### Returns: 
  - `None`: Returns nothing if target not found after `max_attempts`.
 
-### Raises:
+#### Raises:
  - `ValueError`: If the `target_color` argument is not passed. Also raises a ValueError if it finds your `x_max` or `y_max` are bigger than your screen size after taking screenshot.
 
 Scans the given region in steps, checking each pixel against the target 
