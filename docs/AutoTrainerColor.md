@@ -2,7 +2,7 @@
 
 AutoTrainerColor(target_color, x_offset=0, y_offset=0, search_interval=0, top_left=[0,0], bottom_right=[1920,1080])
 
-#### Arguments
+#### Args:
 
 - `target_color` (tuple): RGB tuple of the target color to click on.
 - `x_offset` (int, optional): Pixels to offset clicks in the x direction. Defaults to 0.
@@ -11,10 +11,10 @@ AutoTrainerColor(target_color, x_offset=0, y_offset=0, search_interval=0, top_le
 - `top_left` (list, optional): List of [x, y] representing the top-left corner of the search region. Defaults to [0, 0].
 - `bottom_right` (list, optional): List of [x, y] representing the bottom-right corner of the search region. Defaults to [1920, 1080].
 
-#### Returns
+#### Returns:
 
 - `bool`: Returns `False` if the search is interrupted by a `KeyboardInterrupt` or a `pyautogui.FailSafeException`.
 
-#### Raises
+#### Raises:
 
 - `ValueError`: If the `target_color` argument is not passed or if your bottom_right values are bigger than your screen size.
